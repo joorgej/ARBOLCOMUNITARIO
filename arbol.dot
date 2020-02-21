@@ -1,0 +1,23 @@
+digraph { 
+rankdir = TB; 
+node [shape = none];
+nodo0 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >.</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="white" fixedsize="true" >5</td></tr></table>>]; 
+nodo1 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >.</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="white" fixedsize="true" >4</td></tr></table>>]; 
+nodo2 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >.</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="white" fixedsize="true" >3</td></tr></table>>]; 
+nodo3 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >.</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="white" fixedsize="true" >2</td></tr></table>>]; 
+nodo4 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="yellow" fixedsize="true" >AGRADECIDO</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >1</td><td border="1" bgcolor="white" fixedsize="true" >1</td></tr></table>>]; 
+nodo5 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >2</td><td border="1" bgcolor="yellow" fixedsize="true" >POR</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >2</td><td border="1" bgcolor="white" fixedsize="true" >2</td></tr></table>>]; 
+nodo6 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >3</td><td border="1" bgcolor="yellow" fixedsize="true" >EL</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >3</td><td border="1" bgcolor="white" fixedsize="true" >3</td></tr></table>>]; 
+nodo7 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >4</td><td border="1" bgcolor="yellow" fixedsize="true" >DE</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >4</td><td border="1" bgcolor="white" fixedsize="true" >4</td></tr></table>>]; 
+nodo8 [label = <<table border="0" cellspacing="0"> <tr><td border="1" bgcolor="white" fixedsize="true" >5</td><td border="1" bgcolor="yellow" fixedsize="true" >ARRIBA</td><td border="1" bgcolor="white" fixedsize="true">NO ANULABLE</td><td border="1" bgcolor="white" fixedsize="true" >5</td><td border="1" bgcolor="white" fixedsize="true" >5</td></tr></table>>]; 
+
+nodo0->nodo1; 
+nodo1->nodo2; 
+nodo2->nodo3; 
+nodo3->nodo4; 
+nodo3->nodo5; 
+nodo2->nodo6; 
+nodo1->nodo7; 
+nodo0->nodo8; 
+
+}
